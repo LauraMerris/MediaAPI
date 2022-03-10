@@ -6,7 +6,7 @@
 
     // TODO: Handle where device has no camera
 
-    //startVideo(); // TODO: Call only on first load?
+    startVideo(); // TODO: Call only on first load?
 
     function startVideo() {
         const player = document.getElementById('player');
