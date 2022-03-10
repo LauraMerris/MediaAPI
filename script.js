@@ -24,12 +24,13 @@
             .catch((error) => {
                 // error with getUserMedia either NotAllowedError or NotFoundError
                 // todo: check for this before calling startVideo
+                alert('error finding media stream');
             });
     }
 
     // TODO: enable / disable OK button depending on image
-
-    takePhotoButton.onclick = function () {
+/*
+    #takePhotoButton.onclick = function () {
         const canvas = document.createElement("canvas");
         const video = document.getElementById('player');
         const img = document.getElementById('snapshot');
@@ -49,7 +50,8 @@
         review.style.display = "block";
 
     }
-
+*/
+    /*
     retakePhotoButton.onclick = function () {
 
         // toggle video / review visibility
@@ -60,4 +62,5 @@
         startVideo();
 
     }
+    */
 
